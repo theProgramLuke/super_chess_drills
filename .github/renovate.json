@@ -22,7 +22,7 @@
     {
       "packageNames": [
         "node",
-        "npm"
+        "yarn"
       ],
       "enabled": false
     },
