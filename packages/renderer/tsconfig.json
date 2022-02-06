@@ -8,13 +8,11 @@
     "strict": true,
     "isolatedModules": true,
 
-    "types" : ["node"],
+    "types": ["node"],
 
     "baseUrl": ".",
     "paths": {
-      "/@/*": [
-        "./src/*"
-      ]
+      "/@/*": ["./src/*"]
     },
     "lib": ["ESNext", "dom", "dom.iterable"]
   },
@@ -27,8 +25,5 @@
     "../../types/**/*.d.ts",
     "../preload/exposedInMainWorld.d.ts"
   ],
-  "exclude": [
-    "**/*.spec.ts",
-    "**/*.test.ts",
-  ]
+  "exclude": ["**/*.spec.ts", "**/*.test.ts"]
 }
