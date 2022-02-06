@@ -9,8 +9,4 @@ const versions = Object.entries(window.versions).sort(([key1], [key2]) =>
 
 <template lang="pug" src="/@/components/template/ElectronVersions.pug" />
 
-<style scoped>
-ul {
-  list-style: none;
-}
-</style>
+<style scoped lang="sass" src="/@/components/style/ElectronVersions.sass" />
