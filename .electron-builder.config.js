@@ -18,6 +18,12 @@ const config = {
   extraMetadata: {
     version: process.env.VITE_APP_VERSION,
   },
+  linux: {
+    target: "appImage",
+  },
+  windows: {
+    target: "portable",
+  },
 };
 
 module.exports = config;
