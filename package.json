@@ -1,5 +1,8 @@
 {
   "name": "super-chess-drills",
+  "version": "0.0.1-alpha",
+  "description": "chess preparation tool",
+  "author": "theProgramLuke",
   "private": true,
   "main": "packages/main/dist/index.cjs",
   "scripts": {
