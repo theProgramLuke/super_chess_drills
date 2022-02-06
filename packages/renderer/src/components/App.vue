@@ -4,4 +4,4 @@ import ElectronVersions from "/@/components/ElectronVersions.vue";
 
 <template lang="pug" src="/@/components/template/App.pug" />
 
-<style src="/@/components/style/App.css" />
+<style lang="sass" src="/@/components/style/App.sass" />
