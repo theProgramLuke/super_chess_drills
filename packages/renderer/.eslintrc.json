@@ -11,5 +11,18 @@
     "parser": "@typescript-eslint/parser",
     "ecmaVersion": 12,
     "sourceType": "module"
-  }
+  },
+  "rules": {
+    "vue/html-self-closing": [
+      "error",
+      {
+        "html": {
+          "void": "always",
+          "normal": "always",
+          "component": "always"
+        }
+      }
+    ]
+  },
+  "plugins": ["pug"]
 }
