@@ -21,7 +21,7 @@ const config = {
   linux: {
     target: "appImage",
   },
-  windows: {
+  win: {
     target: "portable",
   },
 };
