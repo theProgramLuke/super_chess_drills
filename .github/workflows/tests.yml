@@ -4,16 +4,10 @@ on:
     branches:
       - main
     paths:
-      - 'packages/**'
-      - 'tests/**'
-      - 'package-lock.json'
-      - '.github/workflows/tests.yml'
+      - '**'
   pull_request:
     paths:
-      - 'packages/**'
-      - 'tests/**'
-      - 'package-lock.json'
-      - '.github/workflows/tests.yml'
+      - '**'
 
 defaults:
   run:
@@ -29,8 +23,14 @@ jobs:
         with:
           node-version: 16
           cache: 'npm'
-      - run: npm ci
-      - run: npm run test:main
+      - name: Install yarn
+        run: npm install -g yarn@1.22.17
+
+      - name: Install dependencies
+        run: yarn install --immutable --immutable-cache --check-cache
+
+      - name: Run test:main
+        run: npm run test:main
 
 
   preload:
@@ -41,8 +41,14 @@ jobs:
         with:
           node-version: 16
           cache: 'npm'
-      - run: npm ci
-      - run: npm run test:preload
+      - name: Install yarn
+        run: npm install -g yarn@1.22.17
+
+      - name: Install dependencies
+        run: yarn install --immutable --immutable-cache --check-cache
+
+      - name: Run test:preload
+      - run: yarn test:preload
 
 
   renderer:
@@ -53,14 +59,20 @@ jobs:
         with:
           node-version: 16
           cache: 'npm'
-      - run: npm ci
-      - run: npm run test:renderer
+      - name: Install yarn
+        run: npm install -g yarn@1.22.17
+
+      - name: Install dependencies
+        run: yarn install --immutable --immutable-cache --check-cache
+
+      - name: Run test:renderer
+        run: npm run test:renderer
 
 
   e2e:
     strategy:
       matrix:
-        os: [ windows-latest ]
+        os: [ ubuntu-latest, windows-latest ]
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v2
@@ -68,5 +80,11 @@ jobs:
         with:
           node-version: 16
           cache: 'npm'
-      - run: npm ci
-      - run: npm run test:e2e
+      - name: Install yarn
+        run: npm install -g yarn@1.22.17
+
+      - name: Install dependencies
+        run: yarn install --immutable --immutable-cache --check-cache
+
+      - name: Run test:main
+        run: npm run test:e2e
