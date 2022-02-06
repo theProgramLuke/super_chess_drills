@@ -21,6 +21,7 @@ async function createWindow() {
   browserWindow.on("ready-to-show", () => {
     browserWindow?.show();
 
+    /* c8 ignore start */
     if (import.meta.env.DEV) {
       browserWindow?.webContents.openDevTools();
     }
@@ -38,6 +39,7 @@ async function createWindow() {
           "../renderer/dist/index.html",
           "file://" + __dirname,
         ).toString();
+  /* c8 ignore stop */
 
   await browserWindow.loadURL(pageUrl);
 
