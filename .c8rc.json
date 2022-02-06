@@ -1,0 +1,9 @@
+{
+  "exclude": ["**/spec.ts", "**/node_modules/**"],
+  "reporter": ["lcov", "text", "text-summary"],
+  "check-coverage": true,
+  "branches": 100,
+  "functions": 100,
+  "lines": 100,
+  "statements": 100
+}
