@@ -7,15 +7,7 @@ const versions = Object.entries(window.versions).sort(([key1], [key2]) =>
 );
 </script>
 
-<template>
-  <ul aria-labelledby="versions">
-    <li v-for="[lib, version] in versions" :key="lib">
-      <strong>{{ lib }}</strong
-      >: v{{ version }}
-    </li>
-  </ul>
-  <code>packages/renderer/src/components/ElectronVersions.vue</code>
-</template>
+<template lang="pug" src="/@/components/template/ElectronVersions.pug" />
 
 <style scoped>
 ul {
