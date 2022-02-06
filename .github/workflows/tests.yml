@@ -48,7 +48,7 @@ jobs:
         run: yarn install --immutable --immutable-cache --check-cache
 
       - name: Run test:preload
-      - run: yarn test:preload
+        run: yarn test:preload
 
 
   renderer:
