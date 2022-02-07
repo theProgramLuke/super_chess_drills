@@ -1,6 +1,6 @@
 {
   "name": "super-chess-drills",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "chess preparation tool",
   "author": "theProgramLuke",
   "private": true,
@@ -63,6 +63,6 @@
     "quasar": "2.5.3",
     "vue": "3.2.30",
     "vue-class-component": "8.0.0-rc.1",
-    "vue-router": "^4.0.12"
+    "vue-router": "4.0.12"
   }
 }
