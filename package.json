@@ -1,6 +1,6 @@
 {
   "name": "super-chess-drills",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "chess preparation tool",
   "author": "theProgramLuke",
   "private": true,
@@ -32,8 +32,8 @@
   "devDependencies": {
     "@prettier/plugin-pug": "1.19.2",
     "@quasar/vite-plugin": "1.0.4",
-    "@typescript-eslint/eslint-plugin": "5.10.2",
-    "@typescript-eslint/parser": "5.10.2",
+    "@typescript-eslint/eslint-plugin": "5.11.0",
+    "@typescript-eslint/parser": "5.11.0",
     "@vitejs/plugin-vue": "2.1.0",
     "@vue/test-utils": "2.0.0-rc.18",
     "c8": "7.11.0",
