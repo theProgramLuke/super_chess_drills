@@ -62,6 +62,7 @@
     "electron-updater": "4.6.5",
     "quasar": "2.5.3",
     "vue": "3.2.30",
-    "vue-class-component": "8.0.0-rc.1"
+    "vue-class-component": "8.0.0-rc.1",
+    "vue-router": "^4.0.12"
   }
 }
