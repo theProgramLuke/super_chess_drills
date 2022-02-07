@@ -1,17 +1,6 @@
-img(alt="Vue logo", src="/@/../assets/logo.svg", width="150")
+q-layout(view="hHh lpR fFf")
+  q-drawer(show-if-above, v-model="leftDrawerOpen", side="left", bordered)
+    p drawer
 
-p
-  | For a guide and recipes on how to configure / customize this project,
-  br
-  | check out the
-  |
-  a(href="https://github.com/cawa-93/vite-electron-builder", target="_blank")
-    | vite-electron-builder documentation
-  | .
-
-fieldset
-  legend Environment
-  electron-versions
-
-p
-  code packages/renderer/src/components/App.vue
+  q-page-container
+    p body
