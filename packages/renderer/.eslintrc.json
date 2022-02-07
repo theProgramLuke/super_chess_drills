@@ -22,7 +22,8 @@
           "component": "always"
         }
       }
-    ]
+    ],
+    "vue/multi-word-component-names": ["error", { "ignores": ["Welcome"] }]
   },
   "plugins": ["pug"]
 }
