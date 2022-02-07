@@ -1,8 +1,7 @@
-if (process.env.VITE_APP_VERSION === undefined) {
-  const now = new Date();
-  process.env.VITE_APP_VERSION = `${now.getUTCFullYear() - 2000}.${
-    now.getUTCMonth() + 1
-  }.${now.getUTCDate()}-${now.getUTCHours() * 60 + now.getUTCMinutes()}`;
+const version = process.env.npm_package_version;
+
+if (version === undefined) {
+  throw "Version must be specified.";
 }
 
 /**
@@ -10,6 +9,8 @@ if (process.env.VITE_APP_VERSION === undefined) {
  * @see https://www.electron.build/configuration/configuration
  */
 const config = {
+  appId: "com.electron.super_chess_drills",
+  artifactName: "Super-Chess-Drills.${ext}",
   directories: {
     output: "dist",
     buildResources: "buildResources",
