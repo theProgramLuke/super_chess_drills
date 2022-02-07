@@ -156,19 +156,19 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@prettier/plugin-pug@^1.19.2":
+"@prettier/plugin-pug@1.19.2":
   version "1.19.2"
   resolved "https://registry.yarnpkg.com/@prettier/plugin-pug/-/plugin-pug-1.19.2.tgz#ac0d433b8decbfc8efc59498da8436fbe4b29099"
   integrity sha512-Izo+m3pb15Ym7t3J+u22kun7bQXZOj+lAqkIc5ifxwd9En9OqcCShZz7eABORmzmY276IjSfY92Ijd23nLR68Q==
   dependencies:
     pug-lexer "^5.0.0"
 
-"@quasar/extras@^1.12.5":
+"@quasar/extras@1.12.5":
   version "1.12.5"
   resolved "https://registry.yarnpkg.com/@quasar/extras/-/extras-1.12.5.tgz#dfd59f5fa96dac75959ff8266d1485abcc270048"
   integrity sha512-I2bj/qPVxFdd1SZmIao+moh2bSlgbqNHJAIAopzwxQL0fTMKWGaOQsOvSKrv4hmAhC1cL/SBHd4OWAUWa4dA/w==
 
-"@quasar/vite-plugin@^1.0.4":
+"@quasar/vite-plugin@1.0.4":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@quasar/vite-plugin/-/vite-plugin-1.0.4.tgz#7a9e6869f59c25830b66d3e4f04e8ab4706aa41a"
   integrity sha512-rH3QKL1p1bvAki62m2Jovh4I84iQifcPSMverzvMxjzKAqRhaxcDqBwJLC5WxnzJ8DWy/rAPI7pQAWlImG7Q7Q==
@@ -899,7 +899,7 @@ builder-util@22.14.5:
     stat-mode "^1.0.0"
     temp-file "^3.4.0"
 
-c8@^7.11.0:
+c8@7.11.0:
   version "7.11.0"
   resolved "https://registry.yarnpkg.com/c8/-/c8-7.11.0.tgz#b3ab4e9e03295a102c47ce11d4ef6d735d9a9ac9"
   integrity sha512-XqPyj1uvlHMr+Y1IeRndC2X5P7iJzJlEJwBpCdBbq2JocXOgJfr+JVfJkyNMGROke5LfKrhSFXGFXnwnRJAUJw==
@@ -3172,7 +3172,7 @@ qs@^6.4.0:
   dependencies:
     side-channel "^1.0.4"
 
-quasar@^2.5.3:
+quasar@2.5.3:
   version "2.5.3"
   resolved "https://registry.yarnpkg.com/quasar/-/quasar-2.5.3.tgz#b37b60dd8ec3500bc1b01e567c087d1edd6a0617"
   integrity sha512-XMKRHl5VviUwdtTQecVnmjmxbedEIiT4oroH/RQRNUiM+fmQ4nS91fF+5cmpndztSl6+lhNBWOCgnkDSzIbc4g==
@@ -3328,7 +3328,7 @@ sanitize-filename@^1.6.3:
   dependencies:
     truncate-utf8-bytes "^1.0.0"
 
-sass@^1.49.7:
+sass@1.49.7:
   version "1.49.7"
   resolved "https://registry.yarnpkg.com/sass/-/sass-1.49.7.tgz#22a86a50552b9b11f71404dfad1b9ff44c6b0c49"
   integrity sha512-13dml55EMIR2rS4d/RDHHP0sXMY3+30e1TKsyXaSz3iLWVoDWEoboY8WzJd5JMnxrRHffKO3wq2mpJ0jxRJiEQ==
