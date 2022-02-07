@@ -18,6 +18,7 @@ const config = {
     },
   },
   build: {
+    chunkSizeWarningLimit: 1500,
     sourcemap: "inline",
     target: `node${node}`,
     outDir: "dist",
