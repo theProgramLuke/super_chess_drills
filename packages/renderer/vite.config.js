@@ -3,6 +3,7 @@
 import { chrome } from "../../.electron-vendors.cache.json";
 import { join } from "path";
 import { builtinModules } from "module";
+import { quasar, transformAssetUrls } from "@quasar/vite-plugin";
 import vue from "@vitejs/plugin-vue";
 
 const PACKAGE_ROOT = __dirname;
@@ -19,7 +20,12 @@ const config = {
       "/@/": join(PACKAGE_ROOT, "src") + "/",
     },
   },
-  plugins: [vue()],
+  plugins: [
+    vue({
+      template: { transformAssetUrls },
+    }),
+    quasar,
+  ],
   base: "",
   server: {
     fs: {

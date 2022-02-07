@@ -163,6 +163,16 @@
   dependencies:
     pug-lexer "^5.0.0"
 
+"@quasar/extras@^1.12.5":
+  version "1.12.5"
+  resolved "https://registry.yarnpkg.com/@quasar/extras/-/extras-1.12.5.tgz#dfd59f5fa96dac75959ff8266d1485abcc270048"
+  integrity sha512-I2bj/qPVxFdd1SZmIao+moh2bSlgbqNHJAIAopzwxQL0fTMKWGaOQsOvSKrv4hmAhC1cL/SBHd4OWAUWa4dA/w==
+
+"@quasar/vite-plugin@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@quasar/vite-plugin/-/vite-plugin-1.0.4.tgz#7a9e6869f59c25830b66d3e4f04e8ab4706aa41a"
+  integrity sha512-rH3QKL1p1bvAki62m2Jovh4I84iQifcPSMverzvMxjzKAqRhaxcDqBwJLC5WxnzJ8DWy/rAPI7pQAWlImG7Q7Q==
+
 "@sindresorhus/is@^0.14.0":
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
@@ -3161,6 +3171,11 @@ qs@^6.4.0:
   integrity sha512-wr7M2E0OFRfIfJZjKGieI8lBKb7fRCH4Fv5KNPEs7gJ8jadvotdsS08PzOKR7opXhZ/Xkjtt3WF9g38drmyRqQ==
   dependencies:
     side-channel "^1.0.4"
+
+quasar@^2.5.3:
+  version "2.5.3"
+  resolved "https://registry.yarnpkg.com/quasar/-/quasar-2.5.3.tgz#b37b60dd8ec3500bc1b01e567c087d1edd6a0617"
+  integrity sha512-XMKRHl5VviUwdtTQecVnmjmxbedEIiT4oroH/RQRNUiM+fmQ4nS91fF+5cmpndztSl6+lhNBWOCgnkDSzIbc4g==
 
 queue-microtask@^1.2.2:
   version "1.2.3"

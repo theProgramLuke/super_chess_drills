@@ -31,6 +31,7 @@
   },
   "devDependencies": {
     "@prettier/plugin-pug": "^1.19.2",
+    "@quasar/vite-plugin": "^1.0.4",
     "@typescript-eslint/eslint-plugin": "5.10.2",
     "@typescript-eslint/parser": "5.10.2",
     "@vitejs/plugin-vue": "2.1.0",
@@ -57,7 +58,9 @@
     "vue-tsc": "0.31.1"
   },
   "dependencies": {
+    "@quasar/extras": "^1.12.5",
     "electron-updater": "4.6.5",
+    "quasar": "^2.5.3",
     "vue": "3.2.29"
   }
 }
