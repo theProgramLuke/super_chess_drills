@@ -1,9 +1,3 @@
-const version = process.env.npm_package_version;
-
-if (version === undefined) {
-  throw "Version must be specified.";
-}
-
 /**
  * @type {import('electron-builder').Configuration}
  * @see https://www.electron.build/configuration/configuration
@@ -16,9 +10,6 @@ const config = {
     buildResources: "buildResources",
   },
   files: ["packages/**/dist/**"],
-  extraMetadata: {
-    version: process.env.VITE_APP_VERSION,
-  },
   linux: {
     target: "appImage",
   },
