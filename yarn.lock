@@ -1659,7 +1659,7 @@ escape-string-regexp@^4.0.0:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
 
-eslint-plugin-pug@^1.2.4:
+eslint-plugin-pug@1.2.4:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/eslint-plugin-pug/-/eslint-plugin-pug-1.2.4.tgz#7ccb85cf3c787fa01500c5763ed7fc8caa4988f2"
   integrity sha512-p/GrX0BgZx/nx1cw/SSDuxEIdZGBeQdG+Cr5+YnpbvEqD0gO9SPEpWS4csZYKlIzxOCy2WxyyGDLKVsF3LD4Ww==
