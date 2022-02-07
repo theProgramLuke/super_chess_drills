@@ -1,4 +1,5 @@
 import { app } from "electron";
+import type { AppUpdater } from "electron-updater";
 import "./security-restrictions";
 import { restoreOrCreateWindow } from "/@/mainWindow";
 
@@ -63,6 +64,10 @@ if (import.meta.env.PROD) {
   app
     .whenReady()
     .then(() => import("electron-updater"))
-    .then(({ autoUpdater }) => autoUpdater.checkForUpdatesAndNotify())
+    .then(({ autoUpdater }) => setUpdatePolicy(autoUpdater))
     .catch((e) => console.error("Failed check updates:", e));
+}
+function setUpdatePolicy(autoUpdater: AppUpdater) {
+  autoUpdater.allowPrerelease = true;
+  autoUpdater.checkForUpdatesAndNotify();
 }
