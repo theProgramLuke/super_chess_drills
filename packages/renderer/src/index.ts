@@ -1,5 +1,5 @@
 import { createApp } from "vue";
-import { Quasar } from "quasar";
+import { Quasar, Dark } from "quasar";
 
 import "@quasar/extras/material-icons/material-icons.css";
 import "quasar/dist/quasar.css";
@@ -11,5 +11,7 @@ const app = createApp(App);
 
 app.use(Quasar);
 app.use(Router);
+
+Dark.set(true);
 
 app.mount("#app");
