@@ -20,8 +20,4 @@ Super Chess Drills is a modern, cross platform tool for _practicing_ a chess rep
 
 ## Roadmap
 
-See [Roadmap](Roadmap.md).
-
-## Contributing
-
-See [Contributing](CONTRIBUTING.md).
+See [Roadmap](https://github.com/theProgramLuke/super_chess_drills/projects/1).
