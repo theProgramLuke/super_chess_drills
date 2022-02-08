@@ -1,6 +1,6 @@
 {
   "name": "super-chess-drills",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "chess preparation tool",
   "author": "theProgramLuke",
   "private": true,
@@ -60,7 +60,7 @@
   "dependencies": {
     "@quasar/extras": "1.12.5",
     "@sentry/electron": "3.0.0-beta.4",
-    "@sentry/vue": "6.17.5",
+    "@sentry/vue": "6.17.6",
     "electron-updater": "4.6.5",
     "quasar": "2.5.4",
     "vue": "3.2.30",
