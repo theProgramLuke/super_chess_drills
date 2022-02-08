@@ -1184,6 +1184,11 @@ check-error@^1.0.2:
   resolved "https://registry.yarnpkg.com/check-error/-/check-error-1.0.2.tgz#574d312edd88bb5dd8912e9286dd6c0aed4aac82"
   integrity sha1-V00xLt2Iu13YkS6Sht1sCu1KrII=
 
+chessground@^8.2.0:
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/chessground/-/chessground-8.2.0.tgz#11fe0393e53f94759fdaa6c407ebc64b4ce1bfd6"
+  integrity sha512-vEJCVD+ea9KZy0HuPvHA9QUhxElbaBChId44UZ0+cl90svP2EImgqeJkuX8ExC+dBKYn1FvzpNh10jrNX81jcQ==
+
 "chokidar@>=3.0.0 <4.0.0":
   version "3.5.3"
   resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.5.3.tgz#1cf37c8707b932bd1af1ae22c0432e2acd1903bd"
