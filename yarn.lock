@@ -316,7 +316,7 @@
     "@sentry/types" "6.17.5"
     tslib "^1.9.3"
 
-"@sentry/vue@^6.17.5":
+"@sentry/vue@6.17.5":
   version "6.17.5"
   resolved "https://registry.yarnpkg.com/@sentry/vue/-/vue-6.17.5.tgz#9e6127ed15e73f3d6a52d06792ed1d24b86623d4"
   integrity sha512-tTCSCvylwKWVCjK9Sp/f7nuUnZuZVEESeSvJo0tYD6RVXYGUsci+/V2UXPWAjmRSXa2hXfXfbW/i3y+lbNHiTA==
