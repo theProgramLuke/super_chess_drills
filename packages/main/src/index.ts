@@ -1,3 +1,10 @@
+import { init as SentryInit } from "@sentry/electron/main";
+
+SentryInit({
+  dsn: "https://1f58a2140259404ca5870d33b0d6ad2f@o1138268.ingest.sentry.io/6192379",
+  environment: import.meta.env.DEV ? "development" : undefined,
+});
+
 import { app } from "electron";
 import type { AppUpdater } from "electron-updater";
 import "./security-restrictions";

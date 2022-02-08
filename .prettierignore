@@ -4,3 +4,6 @@ coverage
 
 # Ignore all HTML files:
 *.html
+
+# Generated
+packages/preload/exposedInMainWorld.d.ts
