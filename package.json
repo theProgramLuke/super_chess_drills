@@ -1,6 +1,6 @@
 {
   "name": "super-chess-drills",
-  "version": "0.0.20",
+  "version": "0.0.21",
   "description": "chess preparation tool",
   "author": "theProgramLuke",
   "private": true,
@@ -55,7 +55,7 @@
     "typescript": "4.5.5",
     "vite": "2.7.13",
     "vitest": "0.3.4",
-    "vue-tsc": "0.31.2"
+    "vue-tsc": "0.31.3"
   },
   "dependencies": {
     "@quasar/extras": "1.12.5",
