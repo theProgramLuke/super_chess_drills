@@ -102,7 +102,7 @@ const setupPreloadPackageWatcher = ({ ws }) =>
     writeBundle() {
       // Generating exposedInMainWorld.d.ts when preload package is changed.
       generateAsync({
-        input: "packages/preload/src/**/*.ts",
+        input: "packages/preload/tsconfig.json",
         output: "packages/preload/exposedInMainWorld.d.ts",
       });
 

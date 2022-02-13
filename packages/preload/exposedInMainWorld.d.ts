@@ -1,3 +1,3 @@
 interface Window {
-    readonly isDev: any;
+    readonly isDev: boolean;
 }
