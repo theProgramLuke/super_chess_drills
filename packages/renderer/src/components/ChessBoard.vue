@@ -52,7 +52,7 @@ function updateBoardOrientation(): void {
 }
 
 watch(() => props.fen, initializeBoard);
-watch(() => props.fen, updateBoardOrientation);
+watch(() => props.orientation, updateBoardOrientation);
 
 onMounted(() => {
   initializeBoard();
