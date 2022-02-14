@@ -24,11 +24,7 @@
         }
       }
     ],
-    "vue/multi-word-component-names": ["error", { "ignores": ["Welcome"] }],
-    "@typescript-eslint/no-unused-vars": [
-      "error",
-      { "varsIgnorePattern": "ChessBoard" }
-    ]
+    "vue/multi-word-component-names": ["error", { "ignores": ["Welcome"] }]
   },
   "plugins": ["pug"]
 }
