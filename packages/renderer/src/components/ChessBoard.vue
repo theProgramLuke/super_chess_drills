@@ -18,7 +18,7 @@ const props = defineProps({
     required: true,
   },
   orientation: {
-    type: Object as PropType<ChessgroundColor>,
+    type: String as PropType<ChessgroundColor>,
     required: true,
   },
 });
