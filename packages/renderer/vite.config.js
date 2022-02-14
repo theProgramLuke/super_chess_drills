@@ -47,6 +47,9 @@ const config = {
   },
   test: {
     environment: "happy-dom",
+    deps: {
+      inline: ["chessground"],
+    },
   },
 };
 
