@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import { Chessground } from "chessground/chessground";
-import { ref, defineProps, onMounted, watch } from "vue";
+import { ref, onMounted, watch } from "vue";
 
 const props = defineProps({
   fen: {
