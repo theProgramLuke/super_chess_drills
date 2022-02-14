@@ -1,10 +1,9 @@
 <script lang="ts" setup>
 import type { Api as ChessgroundBoard } from "chessground/api";
-import type { Color } from "chessground/types";
+import type { Color as ChessgroundColor } from "chessground/types";
 import { Chessground } from "chessground/chessground";
 import type { PropType } from "vue";
 import { ref, onMounted, watch } from "vue";
-import * as _ from "lodash";
 
 const props = defineProps({
   fen: {
@@ -12,7 +11,7 @@ const props = defineProps({
     required: true,
   },
   orientation: {
-    type: Object as PropType<Color>,
+    type: Object as PropType<ChessgroundColor>,
     required: true,
   },
 });
@@ -20,18 +19,19 @@ const emit = defineEmits(["update:fen"]);
 
 const chessBoardDiv = ref<HTMLElement>();
 
+let chessBoard: ChessgroundBoard | null = null;
 function initializeBoard(): void {
   const chessBoardElement = chessBoardDiv.value;
 
   if (chessBoardElement) {
-    const chessBoard = Chessground(chessBoardElement, {
+    chessBoard = Chessground(chessBoardElement, {
       fen: props.fen,
-      orientation: "white",
+      orientation: props.orientation,
       coordinates: false,
     });
     chessBoard.set({
       events: {
-        move: _.partial(handleChessBoardMove, chessBoard),
+        move: handleChessBoardMove,
       },
     });
   } else {
@@ -39,11 +39,20 @@ function initializeBoard(): void {
   }
 }
 
-function handleChessBoardMove(chessBoard: ChessgroundBoard): void {
-  emit("update:fen", chessBoard.getFen());
+function handleChessBoardMove(): void {
+  if (chessBoard) {
+    emit("update:fen", chessBoard.getFen());
+  }
+}
+
+function updateBoardOrientation(): void {
+  if (chessBoard) {
+    chessBoard.set({ orientation: props.orientation });
+  }
 }
 
 watch(() => props.fen, initializeBoard);
+watch(() => props.fen, updateBoardOrientation);
 
 onMounted(() => {
   initializeBoard();
