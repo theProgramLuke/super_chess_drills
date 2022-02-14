@@ -418,6 +418,11 @@
   resolved "https://registry.yarnpkg.com/@types/chai/-/chai-4.3.0.tgz#23509ebc1fa32f1b4d50d6a66c4032d5b8eaabdc"
   integrity sha512-/ceqdqeRraGolFTcfoXNiqjyQhZzbINDngeoAq9GoHa8PPK1yNzTaxWjA6BFWp5Ua9JpXEMSS4s5i9tS0hOJtw==
 
+"@types/chess.js@^0.11.2":
+  version "0.11.2"
+  resolved "https://registry.yarnpkg.com/@types/chess.js/-/chess.js-0.11.2.tgz#e5d5f502b38f24efe854572ee33a939e1e395005"
+  integrity sha512-ZgT0f5Dm1x+kjA/RhCQpBM2NoUGkdk9JFdwncW7/GdqzHCOkLsOTq4k/EKRiRTCFLXR4fTKk8j7KNOmzzHQVgg==
+
 "@types/concat-stream@^1.6.0":
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/@types/concat-stream/-/concat-stream-1.6.1.tgz#24bcfc101ecf68e886aaedce60dfd74b632a1b74"
@@ -1249,6 +1254,11 @@ check-error@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/check-error/-/check-error-1.0.2.tgz#574d312edd88bb5dd8912e9286dd6c0aed4aac82"
   integrity sha1-V00xLt2Iu13YkS6Sht1sCu1KrII=
+
+chess.js@^0.12.1:
+  version "0.12.1"
+  resolved "https://registry.yarnpkg.com/chess.js/-/chess.js-0.12.1.tgz#0884a771893b50b6a594164f01281a08842bdb5d"
+  integrity sha512-95PsuUCtoxPyQNB+29k54OWGeEEpuWXu+d+oWL/fcko5T5NhDuGxaYmoXcZ6KUnFKyUYxdLjwqRqCWZonRuoJQ==
 
 chessground@8.2.0:
   version "8.2.0"
