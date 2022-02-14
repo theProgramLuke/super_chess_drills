@@ -1,1 +1,5 @@
-<template lang="pug" src="/@/components/template/Welcome.pug" />
+<template lang="pug">
+q-card
+  q-card-section
+    | Welcome
+</template>

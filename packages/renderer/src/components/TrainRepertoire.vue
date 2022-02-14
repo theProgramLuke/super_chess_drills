@@ -1,1 +1,5 @@
-<template lang="pug" src="/@/components/template/TrainRepertoire.pug" />
+<template lang="pug">
+q-card
+  q-card-section
+    | Train
+</template>

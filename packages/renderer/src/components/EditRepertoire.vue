@@ -13,5 +13,5 @@ q-card
   q-card-section
     | Edit {{ fen }}
 
-chess-board(v-model:fen="fen")
+chess-board(v-model:fen="fen", orientation="white")
 </template>

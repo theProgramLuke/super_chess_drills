@@ -1,12 +1,18 @@
 <script lang="ts" setup>
 import type { Api as ChessgroundBoard } from "chessground/api";
+import type { Color } from "chessground/types";
 import { Chessground } from "chessground/chessground";
+import type { PropType } from "vue";
 import { ref, onMounted, watch } from "vue";
 import * as _ from "lodash";
 
 const props = defineProps({
   fen: {
     type: String,
+    required: true,
+  },
+  orientation: {
+    type: Object as PropType<Color>,
     required: true,
   },
 });
