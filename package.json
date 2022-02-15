@@ -61,7 +61,7 @@
   "dependencies": {
     "@quasar/extras": "1.12.5",
     "@sentry/electron": "3.0.0-beta.4",
-    "@sentry/vue": "6.17.7",
+    "@sentry/vue": "6.17.8",
     "@types/chess.js": "0.11.2",
     "@types/lodash": "4.14.178",
     "chess.js": "0.12.1",
