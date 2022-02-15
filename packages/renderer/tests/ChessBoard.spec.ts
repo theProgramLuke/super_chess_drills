@@ -1,5 +1,4 @@
 import { describe, expect, test } from "vitest";
-import type { RenderResult } from "@testing-library/vue";
 import { render } from "@testing-library/vue";
 
 // import ChessBoard from "../src/components/ChessBoard.vue";
