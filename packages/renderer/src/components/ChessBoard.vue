@@ -102,10 +102,6 @@ onMounted(() => {
 </script>
 
 <template lang="pug">
-q-card
-  q-card-section
-    | ChessBoard {{ fen }}
-
 div
   .foo.blue.merida
     .cg-wrap(ref="chessBoardDiv")
