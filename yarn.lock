@@ -2443,10 +2443,10 @@ graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.4:
   resolved "https://registry.yarnpkg.com/graceful-readlink/-/graceful-readlink-1.0.1.tgz#4cafad76bc62f02fa039b2f94e9a3dd3a391a725"
   integrity sha1-TK+tdrxi8C+gObL5Tpo906ORpyU=
 
-happy-dom@2.31.1:
-  version "2.31.1"
-  resolved "https://registry.yarnpkg.com/happy-dom/-/happy-dom-2.31.1.tgz#7bc30b61048839d1237e3adac413edb51da642f0"
-  integrity sha512-hbTLxMqyluLT06nRN4TDGLjjKni73tZlvLdF6qGfdv5U4EnrSYSwcZK3ESmv0LEEa5St7NY7e62rhISotH8O3Q==
+happy-dom@2.33.1:
+  version "2.33.1"
+  resolved "https://registry.yarnpkg.com/happy-dom/-/happy-dom-2.33.1.tgz#8e4ec4a7142f9fc2f93f99e804526e830ba97bc6"
+  integrity sha512-Y6NxWMFZ/Os11Ir2A1LnA5QV3V0+f2ha2MteZXPKHT6o7U0DvPlD/1O6dTl2JxMWtenDflD9G8bo45Ah1D+79A==
   dependencies:
     he "^1.1.1"
     node-fetch "^2.6.1"
