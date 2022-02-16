@@ -10,7 +10,7 @@ import { Chess } from "chess.js";
 import type { Square as ChessJsSquare, Move as ChessJsMove } from "chess.js";
 import type { PropType } from "vue";
 import { ref, onMounted, watch } from "vue";
-import * as _ from "lodash";
+import { forEach, map, isEmpty } from "lodash";
 
 const props = defineProps({
   fen: {
@@ -66,14 +66,14 @@ function updateBoardMoveablePieces(): void {
   if (chessBoard) {
     const dests: ChessgroundDests = new Map();
 
-    _.forEach(chessGame.SQUARES, (square: ChessJsSquare) => {
+    forEach(chessGame.SQUARES, (square: ChessJsSquare) => {
       const moves = chessGame.moves({
         square: square,
         verbose: true,
       });
 
-      if (!_.isEmpty(moves)) {
-        const destsFromSquare: ChessgroundKey[] = _.map(
+      if (isEmpty(moves)) {
+        const destsFromSquare: ChessgroundKey[] = map(
           moves,
           (move: ChessJsMove) => {
             return move.to;
