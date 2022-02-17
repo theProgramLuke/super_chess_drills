@@ -1491,6 +1491,11 @@ crypto-random-string@^2.0.0:
   resolved "https://registry.yarnpkg.com/crypto-random-string/-/crypto-random-string-2.0.0.tgz#ef2a7a966ec11083388369baa02ebead229b30d5"
   integrity sha512-v1plID3y9r/lPhviJ1wrXpLeyUIGAZ2SHNYTEapm7/8A9nLPoyvVp3RK/EPFqn5kEznyWgYZNsRtYYIWbuG8KA==
 
+css.escape@^1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/css.escape/-/css.escape-1.5.1.tgz#42e27d4fa04ae32f931a4b4d4191fa9cddee97cb"
+  integrity sha1-QuJ9T6BK4y+TGktNQZH6nN3ul8s=
+
 csstype@^2.6.8:
   version "2.6.19"
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.19.tgz#feeb5aae89020bb389e1f63669a5ed490e391caa"
@@ -2443,11 +2448,12 @@ graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.4:
   resolved "https://registry.yarnpkg.com/graceful-readlink/-/graceful-readlink-1.0.1.tgz#4cafad76bc62f02fa039b2f94e9a3dd3a391a725"
   integrity sha1-TK+tdrxi8C+gObL5Tpo906ORpyU=
 
-happy-dom@2.33.1:
-  version "2.33.1"
-  resolved "https://registry.yarnpkg.com/happy-dom/-/happy-dom-2.33.1.tgz#8e4ec4a7142f9fc2f93f99e804526e830ba97bc6"
-  integrity sha512-Y6NxWMFZ/Os11Ir2A1LnA5QV3V0+f2ha2MteZXPKHT6o7U0DvPlD/1O6dTl2JxMWtenDflD9G8bo45Ah1D+79A==
+happy-dom@2.39.1:
+  version "2.39.1"
+  resolved "https://registry.yarnpkg.com/happy-dom/-/happy-dom-2.39.1.tgz#ee1b191fa3c6388bf1d68e4268f01b71b3b2168c"
+  integrity sha512-xABIR1/klgdPw5yVhQvbrbpU9025dXpr4pPVP4UG0uITzoPGsYruoDYiDNYT69ZhkGrs4K3pg01uD91mijhJcg==
   dependencies:
+    css.escape "^1.5.1"
     he "^1.1.1"
     node-fetch "^2.6.1"
     sync-request "^6.1.0"
