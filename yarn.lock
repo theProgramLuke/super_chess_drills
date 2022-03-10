@@ -191,10 +191,10 @@
   resolved "https://registry.yarnpkg.com/@quasar/extras/-/extras-1.13.0.tgz#be89fed050b5ebfdccc60baf6be9695f95cc6140"
   integrity sha512-yaxbm17v2GXCGS6aAWg5pc9XOO0QoAB56oqGFmt6ZlRGQhDUBnjWvqkq4W/tVhZcF607BcdKZui5KrRAmq4N5Q==
 
-"@quasar/vite-plugin@1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@quasar/vite-plugin/-/vite-plugin-1.0.5.tgz#941a09cfab93a8e0187ec47f36c70f875b3a86ec"
-  integrity sha512-n+LP30etV2OYqOage/rNhIiFTD5yqIBLAb3J9x09Ukl7foLOiQwUMs/xmIjp1Lm2TJVd1gee04cR5JI+wuvdiw==
+"@quasar/vite-plugin@1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@quasar/vite-plugin/-/vite-plugin-1.0.6.tgz#f9e2fcf4efb102d4e398cb431c5e9e14c8de208c"
+  integrity sha512-pM1W2DirckdEj4Al0geYy6iZzgWwtFhrZ8J6ktrpNk2I73p614Y2RXA/HXsDteqD5qtdAqu+j+cndcnDztz73A==
 
 "@sentry/browser@6.17.2":
   version "6.17.2"
