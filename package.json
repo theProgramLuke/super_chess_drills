@@ -30,7 +30,7 @@
     "typecheck": "yarn run typecheck:main && yarn run typecheck:preload && yarn run typecheck:renderer"
   },
   "devDependencies": {
-    "@prettier/plugin-pug": "1.19.2",
+    "@prettier/plugin-pug": "1.19.3",
     "@quasar/vite-plugin": "1.0.6",
     "@testing-library/vue": "6.5.1",
     "@typescript-eslint/eslint-plugin": "5.15.0",
