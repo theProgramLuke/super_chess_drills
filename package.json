@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "@prettier/plugin-pug": "1.19.3",
-    "@quasar/vite-plugin": "1.0.6",
+    "@quasar/vite-plugin": "1.0.7",
     "@testing-library/vue": "6.5.1",
     "@typescript-eslint/eslint-plugin": "5.15.0",
     "@typescript-eslint/parser": "5.15.0",
