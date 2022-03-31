@@ -59,7 +59,7 @@
     "vue-tsc": "0.33.9"
   },
   "dependencies": {
-    "@quasar/extras": "1.13.4",
+    "@quasar/extras": "1.13.5",
     "@sentry/electron": "3.0.6",
     "@sentry/vue": "6.19.3",
     "@types/chess.js": "0.11.2",
