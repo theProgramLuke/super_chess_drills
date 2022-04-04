@@ -1221,10 +1221,10 @@ check-error@^1.0.2:
   resolved "https://registry.yarnpkg.com/check-error/-/check-error-1.0.2.tgz#574d312edd88bb5dd8912e9286dd6c0aed4aac82"
   integrity sha1-V00xLt2Iu13YkS6Sht1sCu1KrII=
 
-chess.js@0.12.1:
-  version "0.12.1"
-  resolved "https://registry.yarnpkg.com/chess.js/-/chess.js-0.12.1.tgz#0884a771893b50b6a594164f01281a08842bdb5d"
-  integrity sha512-95PsuUCtoxPyQNB+29k54OWGeEEpuWXu+d+oWL/fcko5T5NhDuGxaYmoXcZ6KUnFKyUYxdLjwqRqCWZonRuoJQ==
+chess.js@0.13.0:
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/chess.js/-/chess.js-0.13.0.tgz#adc597af94e0d4bdef27e5427b191ee121af6a22"
+  integrity sha512-JxdmZw4Gmg0SZJmmRgzLJd32kmlWryzZxMqatvJr16XWqkPjseod2oMdaWzrhA0gC/c686T/em0wKtEjR7d2sA==
 
 chessground@8.2.1:
   version "8.2.1"
