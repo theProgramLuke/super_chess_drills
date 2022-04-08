@@ -68,7 +68,7 @@
     "chessground": "8.2.1",
     "electron-updater": "4.6.5",
     "lodash": "4.17.21",
-    "quasar": "2.6.5",
+    "quasar": "2.6.6",
     "vue": "3.2.31",
     "vue-class-component": "8.0.0-rc.1",
     "vue-router": "4.0.14"
