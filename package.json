@@ -63,7 +63,7 @@
     "@sentry/electron": "3.0.7",
     "@sentry/vue": "6.19.6",
     "@types/chess.js": "0.11.2",
-    "@types/lodash": "4.14.181",
+    "@types/lodash": "4.14.182",
     "chess.js": "0.13.1",
     "chessground": "8.2.1",
     "electron-updater": "4.6.5",
