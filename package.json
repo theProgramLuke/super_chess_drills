@@ -37,7 +37,7 @@
     "@typescript-eslint/parser": "5.20.0",
     "@vitejs/plugin-vue": "2.3.1",
     "@vue/test-utils": "2.0.0-rc.20",
-    "c8": "7.11.0",
+    "c8": "7.11.2",
     "cross-env": "7.0.3",
     "dts-for-context-bridge": "0.7.1",
     "electron": "17.2.0",
