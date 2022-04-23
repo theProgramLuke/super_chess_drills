@@ -56,7 +56,7 @@
     "typescript": "4.6.3",
     "vite": "2.9.5",
     "vitest": "0.9.4",
-    "vue-tsc": "0.34.9"
+    "vue-tsc": "0.34.10"
   },
   "dependencies": {
     "@quasar/extras": "1.13.5",
