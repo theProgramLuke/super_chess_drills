@@ -410,10 +410,10 @@
   resolved "https://registry.yarnpkg.com/@types/chai/-/chai-4.3.1.tgz#e2c6e73e0bdeb2521d00756d099218e9f5d90a04"
   integrity sha512-/zPMqDkzSZ8t3VtxOa4KPq7uzzW978M9Tvh+j7GHKuo6k6GTLxPJ4J5gE5cjfJ26pnXst0N5Hax8Sr0T2Mi9zQ==
 
-"@types/chess.js@0.11.2":
-  version "0.11.2"
-  resolved "https://registry.yarnpkg.com/@types/chess.js/-/chess.js-0.11.2.tgz#e5d5f502b38f24efe854572ee33a939e1e395005"
-  integrity sha512-ZgT0f5Dm1x+kjA/RhCQpBM2NoUGkdk9JFdwncW7/GdqzHCOkLsOTq4k/EKRiRTCFLXR4fTKk8j7KNOmzzHQVgg==
+"@types/chess.js@0.13.0":
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/@types/chess.js/-/chess.js-0.13.0.tgz#9364f2d3889b63c3af8d3b14358a3908f84109b2"
+  integrity sha512-zwsJ83aAZ9MeVOLc/tYhnKcmG1IUlmdPzRINjixSnFMofDf3LxnLRaOg3bxH4s730xKfyHPm5I4axwY42LADWQ==
 
 "@types/concat-stream@^1.6.0":
   version "1.6.1"
